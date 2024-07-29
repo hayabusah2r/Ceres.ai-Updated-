@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CeresAI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="ceres-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="header">
+            <center><h1>Ceres.ai</h1></center>
+            <center><p>A chatbot that talks too much</p></center>
+        </div>
+        <div id="suggestions-container" class="suggestions-container">
+            <p>What this bot can do:</p>
+            <ul>
+                <li> Answer random questions.</li>
+                <li> Create documents.</li>
+                <li> Write emails.</li>
+                <li> Tell jokes.</li>
+                <li> Tell quotes.</li>
+                <li> Tell random facts.</li>
+                <li> Tell weather forecast.</li>
+                <li> Tell date & time.</li>
+                <li> Includes scientific calculator.</li>
+                <li> Play games.</li>
+                <li> Play music.</li>
+            </ul>
+            <p>Not sure what to ask?<br>
+                
+                <br>Try asking, "Quota Movement in Bangladesh"
+                <br>Or, "Hello" / "Who created you?"
+                <br>Or, "Write a document / email"
+                <br>Or, "I need a calculator"
+                <br>Or, "I want to play a game"
+                <br>Or, "Play a music"
+                <br>Or, "Tell me a joke / quote"
+                </p>
+        </div>
+        <div id="chat-box" class="chat-box"></div>
+        <div class="cursor"></div>
+        <div class="input-container">
+            <input type="text" id="user-input" class="user-input" placeholder="Type a message...">
+            <button id="send-button" class="send-button"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

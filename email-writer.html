@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMTP Email Writer</title>
+    <link rel="stylesheet" href="email-writer.css">
+    <link rel="icon" type="image/png" href="ceres-icon.png">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>SMTP Email Writer</h1>
+        <center><p>// Write emails in seconds. //</p></center>
+        <form id="emailForm">
+            <label for="from">From:</label>
+            <input type="email" id="from" name="from" required placeholder="Type sender's email address: ">
+            
+            <label for="to">To:</label>
+            <input type="email" id="to" name="to" required placeholder="Type receiver's email address: ">
+            
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required placeholder="Type your subject here: ">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required placeholder="Type your message here: " draggable="false"></textarea>
+            <p class="caution">Please check "spam" folder if you don't find the mail.</p>
+            
+            <button type="submit">Send Email</button>
+        </form>
+    </div>
+    <script src="email-writer.js"></script>
+</body>
+</html>
